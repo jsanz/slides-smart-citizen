@@ -1,79 +1,605 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Slides-smart-citizen : " />
+	<head>
+		<meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		<title>Smart Citizen</title>
 
-    <title>Slides-smart-citizen</title>
-  </head>
+		<meta name="description" content="Pequeña charla sobre Smart Citizen y su relación con la ciudadanía digital">
+		<meta name="author" content="Jorge Sanz">
 
-  <body>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jsanz/slides-smart-citizen">View on GitHub</a>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-          <h1 id="project_title">Slides-smart-citizen</h1>
-          <h2 id="project_tagline"></h2>
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<style type="text/css">
+			@import url(https://s3.amazonaws.com/static.slid.es/fonts/josefinsans/josefinsans.css);
+			.reveal h1,
+			.reveal h2,
+			.reveal h3,
+			.reveal h4,
+			.reveal h5,
+			.reveal h6 {
+			  font-family: "Josefin Sans", Impact, sans-serif;
+				font-weight: normal;
+				line-height: 1;
+				letter-spacing: -0.03em;
+				text-transform: none;
+				text-shadow: none;
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/jsanz/slides-smart-citizen/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/jsanz/slides-smart-citizen/tarball/master">Download this project as a tar.gz file</a>
+			}
+			.reveal h1{
+				font-size: 114px;
+			}
+			.reveal h2{
+				font-size: 1.7em;
+			}
+		</style>
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+    <section data-background-color="rgba( 200, 50, 30, 0.6 )">
+        <h1 class="absolute-element" style="position: absolute; width: 968px; height: 395px; z-index: 4; left: -10px; top: 100px;">Redes de vigilancia medioambiental y ciudadanía digital</h1>
+<div class="absolute-element" style="position: absolute; width: 704px; height: 102px; z-index: 4; left: 121px; top: 586px;">
+<a href="http://bit.ly/smart-citizen-geocamp">http://bit.ly/smart-citizen-geocamp</a>
+<br>
+        <a href="http://jorgesanz.net">Jorge Sanz</a> - Vigo - <a href="http://geocamp.es/">GeoCamp.es</a> - Junio 2013</div>
+</section>
+        <section>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/jorgesanz/images/32536/Fat-Green-Troll.png" style="height: 360px;">
+            <h1 class="absolute-element" style="position: absolute; width: 628px; height: 242px; z-index: 4; left: 172px; top: 433px;">
+Internet es de los Trols
+</h1>
+
+
+</section>
+            <section>&nbsp;<img src="http://i.imgur.com/0XuaAHW.png" style="height: 428px;">
+                <h1 class="absolute-element" style="position: absolute; width: 553px; height: 126px; z-index: 5; left: 191px; top: 477px;">
+                    <a href="http://twitter.com/xurxosanz">
+                        <font style="font-size: 72px;">@xurxosanz</font>
+                    </a>
+                </h1>
             </section>
-        </header>
-    </div>
+            <section>
+                <h2>Aldaia</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-0.92,39.009,0.251,39.82&amp;layer=mapquest&amp;marker=39.46443,-0.45885" style="border: 1px solid black;">
+</iframe>
+<br>
+                <small>
+    <a href="http://www.openstreetmap.org/export/embed.html?bbox=-0.92,39.009,0.251,39.82&amp;layer=mapquest&amp;marker=39.46443,-0.45885">Ver en OSM</a>
+</small>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+</section>
+                <section>
+                    <h2>#meteo</h2>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<div class="absolute-element" style="position: absolute; width: 1003px; height: 209px; z-index: 4; left: -39px; top: 241px;">
+<blockquote>
+<p>
+                    <font style="font-size: 54px;">7:40 y 21° en Aldaia #meteo todavía hace tiempo de sandalias y manga corta :-)</font>
+                </p>
+</blockquote>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a href="https://twitter.com/xurxosanz/statuses/116386552845844480">21 de septiembre de 2011</a>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Slides-smart-citizen maintained by <a href="https://github.com/jsanz">jsanz</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
+</section>
+                <section>
+                    <h2>Pero el día de las elecciones de 2011...</h2>
+<h2 class="absolute-element" style="position: absolute; width: 864px; height: 405px; z-index: 4; left: 45px; top: 106px;">
+<a href="http://www.flickr.com/photos/xurxosanz/6368489839/" title="subidas de tensión, rayos y empieza a granizar, la que se nos viene encima con Rajoy by XuRxO, on Flickr">
+<img src="http://farm7.staticflickr.com/6231/6368489839_def1c2e827_z.jpg" alt="subidas de tensión, rayos y empieza a granizar, la que se nos viene encima con Rajoy" style="height: 429px;">
+                </a>
+<br>
+</h2>
+<blockquote class="absolute-element" style="position: absolute; width: 918px; height: 153px; z-index: 4; left: 22px; top: 525px;">
+<font>
+<p>
+<font style="font-size: 42px;">«subidas de tensión, rayos y empieza a granizar, la que se nos viene encima con Rajoy»</font>
+</p>
+<a href="https://twitter.com/xurxosanz/statuses/138215901114793984" style="font-size: 32px;">&nbsp;20 de noviembre de 2011</a>
+</font>
+</blockquote>
 
-  </body>
+
+</section>
+                <section>
+                    <h2>Consecuencias</h2>
+<blockquote class="fragment" data-fragment-index="0">
+<p>esta es la España que nos trae Rajoy, se ha ido la luz y me toca tender una colada que tenía en la secadora, TENDER!!!&nbsp;<a href="https://twitter.com/xurxosanz/statuses/138219386052939776">«</a>
+</p>
+</blockquote>
+
+<blockquote class="fragment" data-fragment-index="1">
+<p>avisos de emergencia municipales por unos altavoces de mierda que no se entienden, en 2011, increíble
+<a href="https://twitter.com/xurxosanz/statuses/138233670661177344">«</a>
+</p>
+</blockquote>
+
+<blockquote class="fragment" data-fragment-index="2">
+<p>votando a oscuras (@ platero y yo) <a href="https://twitter.com/xurxosanz/statuses/138236940687392768">«</a>
+</p>&nbsp;</blockquote>
+
+<blockquote class="fragment" data-fragment-index="3">
+<p>genial, las subidas de tensión de esta mañana se han cobrado otra víctima: mi router :-(,
+esta es la España que nos trae Rajoy&nbsp;<a href="https://twitter.com/xurxosanz/statuses/138276024151572480">«</a>
+</p>&nbsp;</blockquote>
+
+
+
+
+</section>
+                    <section>
+                        <h2>#nometeo</h2>
+<div>
+<img src="http://i.imgur.com/k0lsOku.png" style="height: 339px;">
+                        <br>
+</div>
+<div>
+                        <a href="https://twitter.com/xurxosanz/statuses/138518680605691904">21 de noviembre de 2011</a>
+                    </div>
+                </section>
+                <section>
+                    <h2>El Panel</h2>
+<a href="http://www.flickr.com/photos/xurxosanz/6983098142/" title="El panel de Carmen by XuRxO, on Flickr">
+<img src="http://farm8.staticflickr.com/7089/6983098142_ca9b0e60c1_z.jpg" alt="El panel de Carmen" style="height: 554px;">
+                </a>
+
+</section>
+                <section data-background-color="rgba( 200, 50, 30, 0.6 )">
+                    <a href="http://www.flickr.com/photos/gagilas/3710480555/" title="confused by gagilas, on Flickr">
+<img src="http://farm3.staticflickr.com/2472/3710480555_5404175f43_z.jpg?zz=1" alt="confused" style="height: 445px;">
+                </a>
+
+<h1 class="absolute-element" style="position: absolute; width: 648px; height: 125px; z-index: 4; left: 158px; top: 503px;">¿Y ahora qué?</h1>
+</section>
+                <section>
+                    <div class="absolute-element fragment" style="position: absolute; width: 862px; height: 506px; z-index: 4; left: 47px; top: 27px;">
+<img src="http://www.topito.com/wp-content/uploads/2013/01/code-21.gif" style="height: 340px;">
+</div>
+
+
+&nbsp;<h2 class="absolute-element fragment" style="position: absolute; width: 877px; height: 140px; z-index: 4; left: 34px; top: 543px;">no desesperemos, busquemos a nuestros referentes</h2>
+</section>
+                    <section>
+                        <h2>Carmen Jávega, mi alcaldesa</h2>
+<div>
+<img src="https://twimg0-a.akamaihd.net/profile_background_images/229383980/foto_twitter.jpg" style="height: 473px;">
+                        <br>
+</div>
+                    </section>
+                    <section>
+                        <h2>Carmen Jávega, mi alcaldesa</h2>
+<div>
+<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc1/457358_351110668289173_48195426_o.jpg" style="height: 503px;">
+                        <br>
+</div>
+<div>
+                        <a href="http://www.levante-emv.com/comarcas/2012/06/13/pspv-acusa-alcaldesa-aldaia-coche-municipal-compras/913394.html">
+                            <font style="font-size: 24px;">Fuente</font>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <h2>Cármen Jávega, twittera</h2>
+<div>
+    <img src="http://img9.imageshack.us/img9/1018/2vz7.png" style="height: 563px;">
+                    <br>
+</div>
+<div>
+<p style="font-size: 24px;">
+    <a href="https://twitter.com/CarmenJavega" style="font-style: normal; font-variant: normal;">
+    @CarmenJavega
+    </a>
+                </p>
+</div>
+</section>
+                <section>
+                    <h2>Nace @ElPanelDeCarmen</h2>
+<div>
+<img src="http://i.imgur.com/sKFTsRG.png" style="height: 333px;">
+                    <br>
+</div>
+<div>
+                    <a href="https://twitter.com/ElPanelDeCarmen/status/197611461458132992">2 de mayo de 2012</a>
+                </div>
+            </section>
+            <section data-background-color="rgba( 200, 50, 30, 0.6 )">
+                <a href="http://www.flickr.com/photos/tambako/3593686294/" title="Confused chimp by Tambako the Jaguar, on Flickr">
+<img src="http://farm3.staticflickr.com/2450/3593686294_600ee1b7fb_z.jpg" alt="Confused chimp" style="height: 409px;">
+            </a>
+
+<h1 class="absolute-element" style="position: absolute; width: 648px; height: 125px; z-index: 4; left: 152px; top: 479px;">¿Y ahora qué?</h1>
+</section>
+            <section>
+                <h2>Air Quality Egg</h2>
+<div>
+<img src="http://s.radar.oreilly.com/wp-files/2/2013/03/air-quality-eggs.jpg" style="">
+                <br>
+</div>
+<div>
+    <a href="http://www.kickstarter.com/projects/edborden/air-quality-egg">Kickstarter</a>
+</div>
+
+
+</section>
+                <section>
+                    <h2>Smart Citizen</h2>
+<div>
+<iframe src="http://player.vimeo.com/video/45432343" width="700" height="393" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+</iframe>
+</div>
+<div>
+    <a href="http://goteo.org/project/smart-citizen-sensores-ciudadanos">goteo.rog</a>
+</div>
+
+
+</section>
+                    <section>&nbsp;<div class="absolute-element" style="position: absolute; width: 609px; height: 378px; z-index: 4; left: 64px; top: 89px;">
+                        <img src="http://www.topito.com/wp-content/uploads/2013/01/code-06.gif" style="height: 343px;">
+                    </div>
+<h2 class="absolute-element" style="position: absolute; width: 770px; height: 75px; z-index: 4; left: 172px; top: 609px;">.....me paso un año esperando</h2>
+</section>
+                    <section>
+                        <h2>Llega el Smart Citizen Kit</h2>
+
+<a href="http://www.flickr.com/photos/xurxosanz/9060074052/" title="Smart Citizen Kit by XuRxO, on Flickr">
+                        <img src="http://farm4.staticflickr.com/3779/9060074052_8fc963cb78_z.jpg" width="640" height="480" alt="Smart Citizen Kit" style="">
+                    </a>
+</section>
+                    <section>
+                        <h2>¿Qué es el SCK?</h2>
+<div class="absolute-element" style="position: absolute; width: 588px; height: 309px; z-index: 4; left: 40px; top: 197px;">
+                        <ul>
+<li>Placa principal: <a href="http://arduino.cc/">Arduino</a> Leonardo</li>
+<ul>
+<li>MicroUSB</li>
+<li>Interruptor</li>
+<li>Entrada para panel solar</li>
+<li>MicroSD</li>
+</ul>
+<li>
+<i>Shield</i> de sensores</li>
+<li>Alimentación</li>
+</ul>
+                    </div>
+<div class="absolute-element" style="position: absolute; width: 258px; height: 372px; z-index: 4; left: 659px; top: 194px;">
+<img src="http://smartcitizen.me/img/board_wireframe.png" style="height: 323px;">
+                    <br>
+</div>
+<div>
+                    <br>
+                </div>
+<div class="absolute-element" style="position: absolute; width: 261px; height: 56px; z-index: 4; left: 654px; top: 624px;">
+    <a href="http://smartcitizen.me/">smartcitizen.me</a>
+</div>
+</section>
+                <section>
+                    <h2>Sensores del SCK</h2>
+<div>
+<img src="http://smartcitizen.me/img/asset_sensorBoardIcons.png" style="font-size: 35.59463882446289px; font-style: normal; font-variant: normal; background-color: white;">
+                    <br>
+</div>
+<div class="fragment" data-fragment-index="0">
+<ul>
+<li>
+<span>dudas</span>
+<br>
+</li>
+<ul>
+<li>
+    <span>¿CO y NO2 en Ohmios?</span>
+</li>
+</ul>
+<li>calibración</li>
+<ul>
+<li>sensor de audio</li>
+</ul>
+</ul>
+</div>
+</section>
+                    <section>
+                        <h2>Alimentación</h2>
+
+<div>
+<ul>
+<li>
+<span>conexión a toma de corriente (microUSB)</span>
+</li>
+<li>
+<span>batería</span>
+<br>
+</li>
+<ul>
+<li>1 día más o menos de carga</li>
+</ul>
+<li>panel solar</li>
+<ul>
+<li>8v y 500mA como mínimo</li>
+</ul>
+</ul>
+</div>
+
+<div>
+<img src="https://lh3.googleusercontent.com/-uKV-CjZ_9eA/UbSHsZaQwoI/AAAAAAAAC2g/z1IajXj4ibA/w933-h700-no/IMG_20130609_132330.jpg" style="height: 296px;">
+                        <img src="https://lh5.googleusercontent.com/-CIhz-1edJ24/UbSHsVq6zYI/AAAAAAAAC2g/R2pqQB85ZC8/w933-h700-no/IMG_20130609_132417.jpg" style="text-align: center; height: 296px;">
+</div>
+                    </section>
+                    <section>
+                        <h2>
+<span>Software</span>
+<br>
+</h2>
+<div>
+<ul>
+<li>configuración WIFI desde la web</li>
+<li>carga de <i>firmware</i> usando el IDE de Arduino</li>
+</ul>
+</div>
+
+<div class="absolute-element" style="position: absolute; width: 850px; height: 444px; z-index: 4; left: 52px; top: 252px;">
+    <img src="http://img42.imageshack.us/img42/9972/oaa.png" style="height: 422px;">
+</div>
+</section>
+                        <section>
+                            <h2>Mapa de sensores</h2>
+<div>
+<img src="http://img825.imageshack.us/img825/4127/j6c.png" style="height: 445px;">
+                            <br>
+</div>
+<div>
+<a href="http://test.smartcitizen.me/">test.smartcitizen.me</a>
+                            <br>
+</div>
+                        </section>
+                        <section>
+                            <h2>Mapa de sensores</h2>
+<div>
+<img src="http://img801.imageshack.us/img801/927/b1o.png" style="height: 510px;">
+                            <br>
+</div>
+<div>
+<a href="http://test.smartcitizen.me/" style="color: rgb(255, 218, 102); outline: 0px; border-style: none; font-size: 35.59463882446289px; font-style: normal; font-variant: normal; text-shadow: none;">test.smartcitizen.me</a>
+                            <br>
+</div>
+                        </section>
+                        <section>
+                            <h2>El Panel de Carmen reloaded</h2>
+<div>
+<img src="http://img819.imageshack.us/img819/6651/bqt5.png" style="height: 469px;">
+                            <br>
+</div>
+<div>
+<a href="http://test.smartcitizen.me/devices/view/139">http://test.smartcitizen.me/devices/view/139</a>
+                            <br>
+</div>
+                        </section>
+                        <section>
+                            <h2>API preliminar</h2>
+<div>
+<ul>
+<li>punto de acceso a todos los datos</li>
+<ul>
+<li>
+        <a href="http://data.smartcitizen.me/testjson?device=139">http://data.smartcitizen.me/testjson?device=139</a>
+        <br>
+</li>
+    </ul>
+<li>web de gráficas</li>
+    <ul>
+<li>
+            <a href="http://data.smartcitizen.me/test?device=139">http://data.smartcitizen.me/test?device=139</a>
+        </li>
+    </ul>
+</ul>
+</div>
+
+<img src="http://img69.imageshack.us/img69/1426/hla.png" style="height: 378px;">
+                        </section>
+                        <section>
+                            <h2>Ejemplo de acceso en Python</h2>
+<div>
+<img src="http://img853.imageshack.us/img853/9721/udq9.png" style="">
+                            <br>
+</div>
+<div>
+<a href="http://pastebin.com/y5Cuq0vU">http://pastebin.com/y5Cuq0vU</a>
+                            <br>
+</div>
+                        </section>
+                        <section>
+                            <h2>Ejemplo acceso Python</h2>
+<div>
+<img src="http://img836.imageshack.us/img836/4180/zgr.png" style="height: 434px;">
+                            <br>
+</div>
+                        </section>
+                        <section>
+                            <h2>¿Posibilidades de la propuesta?</h2>
+<div>
+    <ul>
+<li class="fragment" data-fragment-index="0">¡Open Data!&nbsp;</li>
+        <li class="fragment" data-fragment-index="1">¡<i>Raw Data Now</i>!</li>
+        <li class="fragment" data-fragment-index="2">
+                            <a href="https://github.com/fablabbcn/Smart-Citizen-Kit">
+                                <i>Software</i> libre</a>
+                            </li>
+        <li class="fragment" data-fragment-index="3">Mapas en tiempo real de variables medioambientales</li>
+        <li class="fragment" data-fragment-index="4">Independientes de ningún organismo</li>
+        <li class="fragment" data-fragment-index="5">Participar en redes como&nbsp;</li>
+<ul>
+<li class="fragment" data-fragment-index="5">
+                            <a href="http://www.meteoclimatic.com/">MeteoClimatic</a>
+                        </li>
+<li class="fragment" data-fragment-index="5">
+                        <a href="http://openweathermap.org/">OpenWeatherMap</a>
+                    </li>
+</ul>
+<li class="fragment" data-fragment-index="6">¿<i>Pollution Mapping Parties</i>?</li>
+        <li class="fragment" data-fragment-index="7">¿¿¿¿????</li>
+    </ul>
+</div>
+</section>
+                    <section>
+                        <h2>¿Problemas?</h2>
+<div class="absolute-element fragment visivle" style="position: absolute; width: 581px; height: 194px; z-index: 4; left: 100px; top: 170px;" data-fragment-index="0">
+<ul>
+<li>sensores heterogéneos</li>
+<li>calibración y calidad de la medida</li>
+<li>discontinuidad de la medida</li>
+<li>¿<i>in da cloud</i>?</li>
+</ul>
+</div>
+<div class="absolute-element fragment" style="position: absolute; width: 659px; height: 102px; z-index: 4; left: 92px; top: 442px;" data-fragment-index="1">
+    <ul>
+<li>¡parecido a wikipedia u OSM!</li>
+        <li>nuevas necesidades, nuevas soluciones</li>
+    </ul>
+</div>
+
+</section>
+                        <section>
+                            <section data-background-color="rgba( 200, 50, 30, 0.6 )">
+                                <!--
+<a href="http://www.flickr.com/photos/xurxosanz/6983098142/" title="El panel de Carmen by XuRxO, on Flickr">
+<img src="http://farm8.staticflickr.com/7089/6983098142_ca9b0e60c1_z.jpg" alt="El panel de Carmen" style="height: 352px;">
+</a>
+-->
+                                <div>
+    <img src="http://media.tumblr.com/b5e946fd3c44fb224930594d79dc4e32/tumblr_inline_mo94a32ccO1qz4rgp.gif" style="height: 328px;">
+                                <br>
+</div>
+
+<h1>
+¿qué os parece?
+</h1>
+
+<h2>
+<i>¡gracias!</i>
+</h2>
+<div>
+<div style="font-size: 35.667964935302734px; font-style: normal; font-variant: normal;">
+<a href="http://bit.ly/smart-citizen-geocamp">http://bit.ly/smart-citizen-geocamp</a>
+                                <br>
+</div>
+<div style="font-size: 35.667964935302734px; font-style: normal; font-variant: normal;">
+<a href="http://jorgesanz.net/">Jorge Sanz</a>&nbsp;- Vigo -&nbsp;<a href="http://geocamp.es/">GeoCamp.es</a>&nbsp;- Junio 2013</div>
+</div>
+
+
+
+
+
+
+
+
+
+</section>
+                                <section>
+                                    <h2>
+<font style="font-size: 112px;">podéis usar los comentarios de aquí bajo</font>
+</h2>
+
+<div>
+<p>
+<img src="http://www.topito.com/wp-content/uploads/2013/01/code-20.gif" style="height: 208px;">
+                                </p>
+<h2>¡en serio funcionan!</h2>
+</div>
+
+
+
+
+</section>
+                            </section>
+                            <section>
+                                <h2>Licencia</h2>
+
+          <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+            <img src="http://jsanz.github.io/slides-201304-foss4gba/imgs/cc-by-nc-sa.png" class="no-back" style="">
+                            </a>
+          </p>
+
+          <p>
+                            <font style="font-size: 32px;">
+            Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+              Licencia Creative Commons Atribución-NoComercial-CompartirIgual
+              3.0 Unported</a>.
+          </font>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Enlaces y recursos</h2>
+<div class="absolute-element" style="position: absolute; width: 567px; height: 366px; z-index: 4; left: 196px; top: 164px;">
+<a href="http://arttechlaw.com/wp-content/uploads/2012/07/Fat-Green-Troll.jpg">El trol gordo</a>, <a href="http://www.flickr.com/photos/xurxosanz/6983098142/">el panel de Carmen</a>, <a href="http://www.flickr.com/photos/gagilas/3710480555/">nano confundido</a>, <a href="https://twitter.com/CarmenJavega">Carmen Jávega</a>, <a href="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc1/457358_351110668289173_48195426_o.jpg">noticia en Levante-EMV</a>, <a href="http://www.flickr.com/photos/tambako/3593686294/">mono confundido</a>, <a href="http://s.radar.oreilly.com/wp-files/2/2013/03/air-quality-eggs.jpg">el AQE</a>,&nbsp;<a href="http://www.flickr.com/photos/xurxosanz/9060074052/">el Smart Citizen Kit</a>, <a href="http://smartcitizen.me/img/board_wireframe.png">esquema SCK</a>, <a href="http://smartcitizen.me/img/asset_sensorBoardIcons.png">lista de sensores</a>, <a href="https://plus.google.com/photos/111182469025964393702/albums/5887479805226818609">instalación de Salvador Ejarque</a>,&nbsp;<a href="http://pastebin.com/y5Cuq0vU">código de ejemplo</a>, &nbsp;</div>
+                    </section>
+                </div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
 </html>
